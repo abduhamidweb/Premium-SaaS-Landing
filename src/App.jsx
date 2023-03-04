@@ -5,8 +5,8 @@ import { Counter } from "./features/counter/Counter";
 const App = () => {
   return (
     <>
-      {/* <Counter /> */}
-
+      {/* <Counter  /> */}
+<h1>Salom</h1>
     </>
   );
 };
