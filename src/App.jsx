@@ -7,7 +7,6 @@ const App = () => {
   return (
     <>
       {/* <Counter  /> */}
-      <h1>Salom</h1>
       <Home/>
     </>
   );
