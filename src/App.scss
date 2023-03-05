@@ -8,3 +8,28 @@ body {
 .container {
   max-width: 1224px !important;
 }
+.bi-list{
+  font-size: 30px;
+}
+  .btn-oke {
+    padding: 15px 25px;
+    background: #7214ff;
+    border-radius: 36px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    transition: all 0.1s ease;
+
+    color: #ffffff;
+    &:hover {
+      background: #7214ff94;
+      color: #ffffff;
+    }
+    &:active {
+      color: #ffffff;
+      background: #7214ffc9;
+    }
+  }
