@@ -21,35 +21,233 @@
         background-clip: text;
         text-fill-color: transparent;
       }
-    }
-    .inForm {
+      .inForm {
         margin-top: 20px;
-      .card-wrap {
+        .card-wrap {
+          display: flex;
+          align-items: center;
+          .card_wrap_img {
+            width: 42px;
+            height: 30px;
+          }
+          .card_wrap_txt {
+            margin: 0px 0px 0px 12px !important;
+
+            h2 {
+              margin-bottom: 0;
+              font-family: 'Satoshi';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 48px;
+              //   line-height: 56px;
+              /* identical to box height, or 117% */
+              text-align: center;
+              letter-spacing: -0.03em;
+              /* Linear gradient */
+              background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-fill-color: transparent;
+            }
+          }
+        }
+      }
+    }
+    .apps_v1_card {
+      margin-top: 60px;
+      background: #0e1330;
+      overflow: hidden;
+      /* Neutral/gray 500 */
+      border: 1px solid #282d45;
+      border-radius: 10px;
+      box-sizing: border-box;
+      align-items: center;
+      .apps_texts_wrap {
+        padding: 70px;
+        background-size: cover; /* rasmni qamrab o'tadigan o'lchamni belgilash */
+        background-position: center center; /* rasmni markazga joylashtirish */
         display: flex;
         align-items: center;
-        .card_wrap_img {
-          width: 42px;
-          height: 30px;
-        }
-        .card_wrap_txt {
-          margin: 0px 0px 0px 12px !important;
-
-          h2 {
-            margin-bottom: 0;
+        .apps_texts {
+          h3 {
             font-family: 'Satoshi';
             font-style: normal;
             font-weight: 700;
-            font-size: 48px;
-            //   line-height: 56px;
-            /* identical to box height, or 117% */
-            text-align: center;
+            font-size: 32px;
+            line-height: 40px;
+            /* or 125% */
+
             letter-spacing: -0.03em;
-            /* Linear gradient */
-            background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
+
+            /* Neutral/white 200 */
+
+            color: #f6f6f7;
+          }
+          p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+
+            /* Neutral/gray 300 */
+
+            color: #8f9bb7;
+            margin-top: 15px;
+          }
+          .view-oke {
+            margin-top: 35px;
+          }
+        }
+      }
+
+      .apps_imgs_wrap {
+        padding: 70px;
+        background-size: cover; /* rasmni qamrab o'tadigan o'lchamni belgilash */
+        background-position: center center; /* rasmni markazga joylashtirish */
+        display: flex;
+        z-index: 111;
+        align-items: center;
+        .card {
+          padding: 19px;
+          background: #0e1330;
+          max-width: 515px;
+          width: 100%;
+          /* Neutral/gray 500 */
+
+          border: 1px solid #282d45;
+          border-radius: 10px;
+          .card-headerok {
+            margin-bottom: 10px;
+            .card_header_left {
+              display: flex;
+              .event_x {
+                margin-left: 0px;
+                img {
+                  cursor: pointer;
+                }
+              }
+              .event_img {
+                display: flex;
+                margin-left: 40px;
+                img {
+                  cursor: pointer;
+                  z-index: 11;
+                }
+                img:nth-child(2) {
+                  margin-left: 8px;
+                }
+              }
+            }
+            .card_header_right {
+              .arrows {
+                .bgIcon {
+                  cursor: pointer;
+                }
+                float: right;
+                display: flex;
+                .icons_wrap {
+                  display: flex;
+                  margin-left: 10px;
+                  img {
+                    cursor: pointer;
+                  }
+                  .arrow_right {
+                    margin-left: 10px;
+                  }
+                }
+              }
+            }
+          }
+          .card_body {
+            height: 360px;
+            overflow-y: scroll;
+            .card-title {
+              font-family: 'Satoshi';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 18px;
+              /* identical to box height, or 100% */
+
+              letter-spacing: -0.03em;
+
+              /* Neutral/white 200 */
+
+              color: #f6f6f7;
+              margin: 15px 0px 14px 0px;
+            }
+            .card-child {
+              padding: 15px;
+              background: #151934;
+              /* Neutral/gray 500 */
+              border: 1px solid #282d45;
+              border-radius: 4px;
+              margin: 15px 0px;
+              .card-child_text {
+                .card-child_text_header {
+                  display: flex;
+                  justify-content: space-between;
+                  flex-wrap: wrap;
+                  .card-child_text_header_user {
+                    .col-10 {
+                      h5 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 14px;
+                        /* identical to box height, or 100% */
+
+                        /* Neutral/white 200 */
+
+                        color: #f6f6f7;
+                      }
+                      p {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 12px;
+                        /* identical to box height, or 100% */
+
+                        /* Neutral/gray 300 */
+
+                        color: #8f9bb7;
+                      }
+                    }
+                  }
+                  .card-child_text_header_date {
+                    span {
+                      font-family: 'Inter';
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 12px;
+                      line-height: 12px;
+                      /* identical to box height, or 100% */
+
+                      /* Neutral/gray 300 */
+
+                      color: #8f9bb7;
+                    }
+                  }
+                }
+                .card-child_text_desc {
+                  font-family: 'Inter';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 22px;
+                  /* or 157% */
+
+                  /* Neutral/gray 300 */
+
+                  color: #8f9bb7;
+                }
+              }
+            }
           }
         }
       }
