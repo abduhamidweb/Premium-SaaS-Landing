@@ -15,6 +15,10 @@ import arrowLeft from "../../assets/arrowleft.png";
 import arrowRight from "../../assets/arrowright.png";
 import user1 from "../../assets/user1.png";
 import user2 from "../../assets/user2.png";
+import app2 from "../../assets/appBG2.png";
+import app2Right from "../../assets/appBG2Rgight.png";
+import phoneImg from "../../assets/phoneImg.png";
+import wrap from "../../assets/wrap.png";
 import CardChild from './CardChild';
 const Apps = () => {
     let appCards = [
@@ -147,6 +151,36 @@ const Apps = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="apps_v2_card">
+                            <div className="row ">
+                                <div className="col-lg-5 col-md-5 col-sm-12 apps_v2_card_wrapper" style={{ backgroundImage: `url(${app2})` }}>
+                                    <div className="card">
+                                        <img src={phoneImg} alt="img" className='card-img img-fluid' />
+                                        <div className="card-body">
+                                            <h5 className="card-title">
+                                                Mobile applications
+                                            </h5>
+                                            <p className="card-desc">
+                                                Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet condimentum. Vulputate varius feugiat egestas congue
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-12 apps_v2_card_wrapper" style={{ backgroundImage: `url(${app2Right})` }}>
+                                    <div className="wrapper">
+                                        <h5>
+                                            Upload, share, and preview any file
+                                        </h5>
+                                        <p>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.</p>
+                                        <img src={wrap} alt="img" className='img-fluid' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="apps_v3_wrap">
+                            <a href="#" className='btn-oke'>Get a Started</a>
+                            <a href="#" className='view-oke'>Browse all feature</a>
                         </div>
                     </div>
                 </div>
