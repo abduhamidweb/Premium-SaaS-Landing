@@ -5,6 +5,7 @@ import Footer from '../../UI/Footer/Footer';
 import Hero from '../../components/Hero/Hero';
 import Service from '../../components/Service/Service';
 import Apps from '../../components/Apps/Apps';
+import Source from '../../components/source/Source';
 const Home = () => {
     return (
         <>
@@ -12,6 +13,7 @@ const Home = () => {
             <Hero />
             <Service />
             <Apps />
+            <Source />
             <Router />
             <Footer />
         </>
