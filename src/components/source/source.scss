@@ -1,1 +1,98 @@
-.source{}
+.source {
+  .source__wrapper {
+    background: #0e1330;
+    /* Neutral/gray 500 */
+    border: 1px solid #282d45;
+    border-radius: 10px;
+    padding: 50px 54px;
+    margin-top: 70px;
+    .card {
+      background: transparent;
+      h2 {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        /* or 117% */
+
+        letter-spacing: -0.03em;
+
+        /* Linear gradient */
+
+        background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        /* Neutral/gray 300 */
+
+        color: #8f9bb7;
+        margin-top: 15px;
+      }
+      a {
+        width: 180px;
+        margin-top: 40px;
+      }
+    }
+    .source_card_wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+    }
+    .producs {
+      margin-top: 40px;
+      .product_info {
+        .product_info-card {
+          background: #060b27;
+          /* Neutral/gray 500 */
+          border: 1px solid #282d45;
+          border-radius: 10px;
+          padding: 30px 30px 0px 30px;
+          h5 {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            /* identical to box height, or 133% */
+
+            letter-spacing: -0.03em;
+
+            /* Neutral/white 200 */
+
+            color: #f6f6f7;
+          }
+          p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+
+            /* Neutral/gray 300 */
+
+            color: #8f9bb7;
+            margin-top: 10px;
+          }
+          img {
+            margin: 32px auto 0px auto;
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
