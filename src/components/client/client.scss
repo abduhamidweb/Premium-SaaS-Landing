@@ -1,0 +1,421 @@
+.client {
+  &_title {
+    max-width: 636px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    h2 {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 64px;
+      /* identical to box height, or 114% */
+
+      letter-spacing: -0.03em;
+
+      /* Linear gradient */
+
+      background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+
+      text-align: center;
+
+      /* Neutral/gray 300 */
+
+      color: #8f9bb7;
+    }
+  }
+  .clients {
+    margin-top: 80px;
+  }
+  .card_wrapper {
+    padding: 24px;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+
+    .card {
+      position: absolute;
+      z-index: 1;
+      max-width: 343px;
+      width: 100%;
+      //   bottom: 25px;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #0e1330;
+      /* Neutral/gray 500 */
+      border: 1px solid #282d45;
+      border-radius: 10px;
+      padding: 25px;
+      .card-user-detail {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .detbox {
+          margin-left: 10px;
+          .name {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            /* identical to box height, or 100% */
+
+            /* Neutral/white 200 */
+
+            color: #f6f6f7;
+          }
+          .designation {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            /* identical to box height, or 100% */
+
+            /* Neutral/gray 300 */
+
+            color: #8f9bb7;
+            padding-bottom: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .card-body {
+        padding: 0;
+        margin-top: 25px;
+
+        p {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          /* or 150% */
+          padding-bottom: 19px;
+
+          /* Neutral/white 200 */
+
+          color: #f6f6f7;
+        }
+      }
+    }
+    .card-bg {
+      max-width: 392px;
+      width: 100%;
+      height: 110px;
+      background: rgb(166, 76, 232);
+      bottom: 0;
+      background: linear-gradient(
+        0deg,
+        rgba(167, 76, 232, 0.808) 0%,
+        rgba(168, 233, 255, 0.781) 63%,
+        rgba(198, 255, 224, 0.877) 100%
+      );
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .client {
+    &_title {
+      max-width: 636px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      margin-top: 70px;
+      h2 {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        /* identical to box height, or 114% */
+
+        letter-spacing: -0.03em;
+
+        /* Linear gradient */
+
+        background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        text-align: center;
+
+        /* Neutral/gray 300 */
+
+        color: #8f9bb7;
+      }
+    }
+    .clients {
+      margin-top: 80px;
+    }
+    .card_wrapper {
+      padding: 24px;
+      box-sizing: border-box;
+      position: relative;
+      margin: auto;
+      display: flex;
+      height: 250px;
+      justify-content: center;
+
+      .card {
+        position: absolute;
+        z-index: 1;
+        max-width: 343px;
+        width: 100%;
+        //   bottom: 25px;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #0e1330;
+        /* Neutral/gray 500 */
+        border: 1px solid #282d45;
+        border-radius: 10px;
+        padding: 25px;
+        .card-user-detail {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          .detbox {
+            margin-left: 10px;
+            .name {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 16px;
+              /* identical to box height, or 100% */
+
+              /* Neutral/white 200 */
+
+              color: #f6f6f7;
+            }
+            .designation {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 12px;
+              /* identical to box height, or 100% */
+
+              /* Neutral/gray 300 */
+
+              color: #8f9bb7;
+              padding-bottom: 0;
+              margin-bottom: 0;
+            }
+          }
+        }
+        .card-body {
+          padding: 0;
+          margin-top: 25px;
+
+          p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            padding-bottom: 19px;
+
+            /* Neutral/white 200 */
+
+            color: #f6f6f7;
+          }
+        }
+      }
+      .card-bg {
+        max-width: 392px;
+        width: 100%;
+        height: 110px;
+        background: rgb(166, 76, 232);
+        bottom: 0;
+        background: linear-gradient(
+          0deg,
+          rgba(167, 76, 232, 0.808) 0%,
+          rgba(168, 233, 255, 0.781) 63%,
+          rgba(198, 255, 224, 0.877) 100%
+        );
+        position: absolute;
+        margin: auto;
+        z-index: -1;
+      }
+    }
+    .card_wrapper:nth-child(3){
+        margin-top: 95px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .client {
+    &_title {
+      max-width: 636px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      margin-top: 70px;
+      h2 {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        /* identical to box height, or 114% */
+
+        letter-spacing: -0.03em;
+
+        /* Linear gradient */
+
+        background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        text-align: center;
+
+        /* Neutral/gray 300 */
+
+        color: #8f9bb7;
+      }
+    }
+    .clients {
+      margin-top: 80px;
+    }
+    .card_wrapper {
+      padding: 24px;
+      box-sizing: border-box;
+      position: relative;
+      margin: auto;
+      display: flex;
+      height: 250px;
+      justify-content: center;
+
+      .card {
+        position: absolute;
+        z-index: 1;
+        max-width: 343px;
+        width: 100%;
+        //   bottom: 25px;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #0e1330;
+        /* Neutral/gray 500 */
+        border: 1px solid #282d45;
+        border-radius: 10px;
+        padding: 25px;
+        .card-user-detail {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          .detbox {
+            margin-left: 10px;
+            .name {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 16px;
+              /* identical to box height, or 100% */
+
+              /* Neutral/white 200 */
+
+              color: #f6f6f7;
+            }
+            .designation {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 12px;
+              /* identical to box height, or 100% */
+
+              /* Neutral/gray 300 */
+
+              color: #8f9bb7;
+              padding-bottom: 0;
+              margin-bottom: 0;
+            }
+          }
+        }
+        .card-body {
+          padding: 0;
+          margin-top: 25px;
+
+          p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            padding-bottom: 19px;
+
+            /* Neutral/white 200 */
+
+            color: #f6f6f7;
+          }
+        }
+      }
+      .card-bg {
+        max-width: 392px;
+        width: 100%;
+        height: 110px;
+        background: rgb(166, 76, 232);
+        bottom: 0;
+        background: linear-gradient(
+          0deg,
+          rgba(167, 76, 232, 0.808) 0%,
+          rgba(168, 233, 255, 0.781) 63%,
+          rgba(198, 255, 224, 0.877) 100%
+        );
+        position: absolute;
+        margin: auto;
+        z-index: -1;
+      }
+    }
+    .card_wrapper:nth-child(2){
+        margin-top: 95px;
+    }
+  }
+}

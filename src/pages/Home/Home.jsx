@@ -15,7 +15,7 @@ const Home = () => {
             <Service />
             <Apps />
             <Source />
-            <Client/>
+            <Client />
             <Router />
             <Footer />
         </>
