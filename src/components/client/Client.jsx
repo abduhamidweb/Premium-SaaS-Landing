@@ -3,7 +3,9 @@ import "./client.scss";
 import A1 from "../../assets/A1.png";
 import A2 from "../../assets/A2.png";
 import A3 from "../../assets/A3.png";
+import deaultConteinerImg from "../../assets/defoultBG.png";
 import Clients from './clients';
+import logo2 from "../../assets/logo2.png";
 const Client = () => {
     let clientUsers = [
         {
@@ -41,6 +43,16 @@ const Client = () => {
                             clientUsers.length ? clientUsers.map(item => <Clients key={item.id} data={item} />) :
                                 "<h1>Loading...</h1>"
                         }
+                    </div>
+                    <div className="defoult_container" style={{ backgroundImage: `url(${deaultConteinerImg})` }}>
+                        <div className="defoult_content">
+                            <img src={logo2} alt="logo" />
+                            <div className="content_text">
+                                <h2>Join the community</h2>
+                                <p>Join our 400,000+ person community and contribute to a more private and decentralized internet. Start for free.</p>
+                            </div>
+                            <a href="#" className='btn-oke '>Join Discord</a>
+                        </div>
                     </div>
                 </div>
             </section>

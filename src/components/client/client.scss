@@ -40,6 +40,7 @@
   }
   .clients {
     margin-top: 80px;
+    padding-bottom: 70px;
   }
   .card_wrapper {
     padding: 24px;
@@ -49,7 +50,6 @@
     display: flex;
     height: 250px;
     justify-content: center;
-
     .card {
       position: absolute;
       z-index: 1;
@@ -132,6 +132,55 @@
       position: absolute;
       margin: auto;
       z-index: -1;
+    }
+  }
+  .defoult_container {
+    background-size: cover; /* rasmni qamrab o'tadigan o'lchamni belgilash */
+    background-position: center center; /* rasmni markazga joylashtirish */
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    .defoult_content {
+      max-width: 485px;
+      text-align: center;
+      .content_text {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        h2 {
+          font-family: 'Satoshi';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 48px;
+          /* identical to box height, or 120% */
+
+          text-align: center;
+          letter-spacing: -0.03em;
+
+          /* Neutral/white 200 */
+
+          color: #f6f6f7;
+        }
+        p {
+          margin-top: 15px;
+          /* Subtitle/RG */
+
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          /* or 150% */
+
+          text-align: center;
+
+          /* Neutral/gray 300 */
+
+          color: #8f9bb7;
+        }
+      }
     }
   }
 }
@@ -272,8 +321,8 @@
         z-index: -1;
       }
     }
-    .card_wrapper:nth-child(3){
-        margin-top: 95px;
+    .card_wrapper:nth-child(3) {
+      margin-top: 95px;
     }
   }
 }
@@ -414,8 +463,8 @@
         z-index: -1;
       }
     }
-    .card_wrapper:nth-child(2){
-        margin-top: 95px;
+    .card_wrapper:nth-child(2) {
+      margin-top: 95px;
     }
   }
 }
