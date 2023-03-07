@@ -53,7 +53,7 @@ const Service = () => {
                 <div className="container">
                     <div className="service_content">
                         <div className="row">
-                            <div className="col-lg-8 col-md-8 col-sm-12">
+                            <div className="col-lg-8 col-md-8 col-sm-12" >
                                 <h2>Powerful features to help you manage all your leads</h2>
                             </div>
                             <div className="col-lg-4 col-md-4 col-sm-12">

@@ -13,7 +13,7 @@ const Hero = () => {
                             <a href="#" className='btn-oke'> Get a demo</a>
                             <a href="#" className='view-oke'>View pricing</a>
                         </div>
-                        <div className="hero_view">
+                        <div className="hero_view" >
                             <img src={hero} className='img-fluid' alt="img" />
                         </div>
                     </div>
