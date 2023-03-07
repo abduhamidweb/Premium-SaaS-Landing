@@ -6,7 +6,7 @@ const index = () => {
     return (
         <>
             <Routes>
-                <Route path='/' element={<Test />} />
+                {/* <Route path='/' element={<Test />} /> */}
             </Routes>
         </>
     );
