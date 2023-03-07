@@ -42,7 +42,6 @@ const Source = () => {
                             {
                                 produc.length ? produc.map(item => <SourceCard key={item.id} data={item} />) : "<h1>Loading...</h1>"
                             }
-
                         </div>
                     </div>
                 </div>
