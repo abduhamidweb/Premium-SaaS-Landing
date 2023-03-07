@@ -1,0 +1,128 @@
+.product_wrapper {
+  padding: 80px 0px;
+  .product_title {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    /* identical to box height, or 114% */
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    /* Linear gradient */
+
+    background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 60px;
+  }
+  .link {
+    text-align: end;
+  }
+  .card-wrapper {
+    background: #0e1330;
+    /* Neutral/gray 500 */
+
+    border: 1px solid #282d45;
+    border-radius: 10px;
+    .card-body {
+      padding: 0;
+      margin-top: 20px;
+      .card-title {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        /* or 133% */
+
+        letter-spacing: -0.03em;
+
+        /* Neutral/white 200 */
+
+        color: #f6f6f7;
+      }
+      .card-description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        /* or 157% */
+        margin-top: 15px;
+
+        /* Neutral/gray 300 */
+
+        color: #8f9bb7;
+      }
+    }
+    .line {
+      height: 1px;
+      background: #282d45;
+      width: 100%;
+      margin: 19px 0;
+    }
+    .card-footer {
+      border: none;
+      display: flex;
+      padding: 0;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      p {
+        margin-bottom: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+
+        /* Neutral/gray 300 */
+
+        color: #8f9bb7;
+      }
+      a {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+
+        /* Neutral/white */
+
+        color: #ffffff;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .product_wrapper {
+    padding: 80px 0px;
+    .product_title {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 64px;
+      /* identical to box height, or 114% */
+      text-align: center;
+      letter-spacing: -0.03em;
+
+      /* Linear gradient */
+
+      background: linear-gradient(180deg, #f6f6f7 0%, #7e808f 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .link {
+      text-align: center;
+    }
+  }
+}

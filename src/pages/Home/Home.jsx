@@ -7,6 +7,7 @@ import Service from '../../components/Service/Service';
 import Apps from '../../components/Apps/Apps';
 import Source from '../../components/source/Source';
 import Client from '../../components/client/Client';
+import Product from '../../components/Product/Product';
 const Home = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const Home = () => {
             <Apps />
             <Source />
             <Client />
+            <Product/>
             <Router />
             <Footer />
         </>
