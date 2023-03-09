@@ -334,13 +334,13 @@
         }
       }
     }
-    .apps_v3_wrap{
+    .apps_v3_wrap {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       margin-top: 60px;
-      .view-oke{
+      .view-oke {
         margin-left: 30px;
       }
     }
@@ -404,28 +404,57 @@
           }
         }
       }
-          .apps_v2_card {
-      margin-top: 40px;
-      .row {
-        justify-content: space-between;
-      }
-      .apps_v2_card_wrapper {
-        border: 1px solid #282d45;
-        border-radius: 10px;
-        background-size: cover; /* rasmni qamrab o'tadigan o'lchamni belgilash */
-        background-position: center center; /* rasmni markazga joylashtirish */
-        padding: 50px 56px;
-        margin: 10px 0px;
-        .card {
-          background: transparent;
-          .card-img {
-            width: 271px;
-            height: 360px;
-            margin: auto;
+      .apps_v2_card {
+        margin-top: 40px;
+        .row {
+          justify-content: space-between;
+        }
+        .apps_v2_card_wrapper {
+          border: 1px solid #282d45;
+          border-radius: 10px;
+          background-size: cover; /* rasmni qamrab o'tadigan o'lchamni belgilash */
+          background-position: center center; /* rasmni markazga joylashtirish */
+          padding: 50px 56px;
+          margin: 10px 0px;
+          .card {
+            background: transparent;
+            .card-img {
+              width: 271px;
+              height: 360px;
+              margin: auto;
+            }
+            .card-body {
+              margin-top: 38px;
+              .card-title {
+                font-family: 'Satoshi';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 40px;
+                /* identical to box height, or 125% */
+
+                letter-spacing: -0.03em;
+
+                /* Neutral/white 200 */
+
+                color: #f6f6f7;
+              }
+              .card-desc {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+
+                /* Neutral/gray 300 */
+
+                color: #8f9bb7;
+              }
+            }
           }
-          .card-body {
-            margin-top: 38px;
-            .card-title {
+          .wrapper {
+            h5 {
               font-family: 'Satoshi';
               font-style: normal;
               font-weight: 700;
@@ -439,7 +468,7 @@
 
               color: #f6f6f7;
             }
-            .card-desc {
+            p {
               font-family: 'Inter';
               font-style: normal;
               font-weight: 400;
@@ -451,51 +480,22 @@
 
               color: #8f9bb7;
             }
-          }
-        }
-        .wrapper {
-          h5 {
-            font-family: 'Satoshi';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 40px;
-            /* identical to box height, or 125% */
-
-            letter-spacing: -0.03em;
-
-            /* Neutral/white 200 */
-
-            color: #f6f6f7;
-          }
-          p {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            /* or 150% */
-
-            /* Neutral/gray 300 */
-
-            color: #8f9bb7;
-          }
-          img {
-            margin-top: 50px;
+            img {
+              margin-top: 50px;
+            }
           }
         }
       }
-    }
-    .apps_v3_wrap{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-top: 60px;
-      .view-oke{
-        margin-left: 0px !important;
+      .apps_v3_wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        .view-oke {
+          margin-left: 0px !important;
+        }
       }
-    }
     }
   }
 }
